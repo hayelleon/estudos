@@ -1,0 +1,14 @@
+Acrescentar Modificador Arma
+
+Criar classe Combate? Jogar bater lá?
+bater vira Modulo?
+
+Criar Novas Armas
+
+Criar Aleatoriedade de Armas e seus nomes
+
+Expandir lista herois
+
+Expadir lista monstros
+
+Criar Objeto.new para Heroi e Monstro com o nome do respectivo criado (p.e.: heroi = Odin.new)
