@@ -6,8 +6,8 @@ class Armas < Estatisticas
 	attr_accessor :dano_min, :dano_max, :dano
 	
 	def initialize
-		self.dano_min = 1
-		self.dano_max = 1
+		self.dano_min = rand(1...7)
+		self.dano_max = rand(7...14)
 		self.dano = (self.dano_min + self.dano_max) / 2
 	end
 
@@ -20,18 +20,13 @@ class Armas < Estatisticas
 
 		puts arma
 	end
-	
-	def modificadores
-		mod_1 = self.forca
-		mod_2 = self.vigor
 
-		mod_total = mod_1.to_i + mod_2.to_i
-
-		puts mod_total
-	end
-	
 	def dano_total
 		puts self.dano
+	end
+
+	def modificadores
+
 	end
 
 	def to_s
@@ -44,4 +39,4 @@ arma = Armas.new
 arma.arma
 arma.dano_total
 arma.modificadores
-binding.pry
+# binding.pry

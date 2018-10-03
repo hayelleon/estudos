@@ -16,7 +16,7 @@ _____________________________________
 ______________________________________________
 
 + Desenvolver implementação de estatisticas
-	estatisticas.rb
+	+ estatisticas.rb
 	fix att_rating
 	fix defesa
 
@@ -25,7 +25,8 @@ _____________________________________________
 
 Criar Magias
 
-Implementar Modificadores
++ Desenvolver e Implementar Modificadores
+	Transposição método -> class Modificadores
 
 Criar Objeto.new para Heroi e Monstro com o nome do respectivo criado (p.e.: heroi = Odin.new)
 
