@@ -1,6 +1,5 @@
 require_relative "personagem"
 
-
 require 'pry'
 
 class Heroi < Personagem
@@ -10,11 +9,11 @@ class Heroi < Personagem
 		self.energia = 30
 		self.status = true
 		self.mortes = 0
-		#self.nome = nome_heroi
 	end
 
 	def nome_heroi 
-		lista_herois = %w{Odin Thor Loki Frea Wolverine }
+		lista_herois = ["Odin", "Thor", "Loki", "Frea", "Wolverine", "Hulk", "Vespa", "Homem-Aranha",
+						"Colossus", "Kitty Pride", "Hércules", "Sherlock Holmes"]
 		indice_herois = lista_herois.length
 		heroi_rand = rand(indice_herois)
 		@heroi = lista_herois[heroi_rand]
@@ -31,10 +30,10 @@ class Heroi < Personagem
 			puts " 	O monstro está morto!"
 		end
 
-	 unless alvo.esta_vivo?
-	 	puts " 	O monstro está morto!\n\n"
-	 	self.mortes += 1
-	 end
+		unless alvo.esta_vivo?
+			puts " 	O monstro está morto!\n\n"
+			self.mortes += 1
+		end
 	end
 
  	def esta_vivo?

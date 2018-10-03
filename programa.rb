@@ -31,4 +31,4 @@ while heroi.esta_vivo?
 end
 
 puts "#{heroi.nome} morreu!!!"
-puts "#{heroi.nome} abateu #{heroi.mortes} monstros!"
+puts "#{heroi.nome} abateu #{heroi.mortes + 1} monstros!"

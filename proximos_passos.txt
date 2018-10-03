@@ -1,14 +1,48 @@
 Acrescentar Modificador Arma
 
-Criar classe Combate? Jogar bater lá?
-bater vira Modulo?
+Criar classe Combate? Jogar 'bater' lá?
+'bater' vira Modulo?
 
-Criar Novas Armas
++ Criar Novas Armas
 
-Criar Aleatoriedade de Armas e seus nomes
++ Criar Aleatoriedade de Armas e seus nomes
 
-Expandir lista herois
+++ Expandir lista herois
 
-Expadir lista monstros
+++ Expadir lista monstros
 
 Criar Objeto.new para Heroi e Monstro com o nome do respectivo criado (p.e.: heroi = Odin.new)
+
+FIXERROR
+Corrigir erro "chamada nome" no bloco
+p.e.:
+
+Hidra-Mitologica - Ataque:  / Energia: 11 / true
+
+ 	O dano de Wolverine foi: 4
+	A energia de Esqueleto é 7
+	A energia de Wolverine é 16
+
+
+ 	O dano de Wolverine foi: 6
+	A energia de Esqueleto é 1
+	A energia de Wolverine é 14
+
+
+ 	O dano de Wolverine foi: 3
+ 	O monstro está morto!
+ FIXERROR
+
++ Criar Estaticas diferenciadas para (hash?)
+	Herois
+	Monstros
+	Armas
+
++ Criar Armaduras, Elmos, Amuletos, Ombreiras, Peitoral, Luvas, Anéis, Cintos, Pernas, Botas
+
+Criar Magias
+
+Implementar Modificadores
+
+Criar attack_rating e defesa  
+

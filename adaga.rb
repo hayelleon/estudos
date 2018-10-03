@@ -17,10 +17,7 @@ class Adaga < Armas
  	end
  	
  	def to_s
- 		"Adaga\nDano minimo - #{self.dano_min}\nDano máximo - #{self.dano_max}\nDano neste combate - #{self.dano}\n"
+ 		"\nAdaga\nDano minimo - #{self.dano_min}\nDano máximo - #{self.dano_max}\nDano neste combate - #{self.dano}\n\n"
  	end
 end
 
-adaga = Adaga.new
-
-puts adaga

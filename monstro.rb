@@ -13,7 +13,9 @@ class Monstro < Personagem
 	end
 	
 	def nome_monstro
-		lista_monstros = %w{Fishman Gigante Orc Goblin }
+		lista_monstros = ["Fishman", "Gigante", "Orc", "Goblin", "Hidra Mitologica", "Esqueleto",
+						  "Balrog", "Uruk-hai", "Troll", "Caveira Vermelha", "Arnim Zola", "Venom",
+						  "Abutre", "Apocalipse", "Groxo"]
 		indice_monstros = lista_monstros.length
 		monstro_rand = rand(indice_monstros)
 		@monstro = lista_monstros[monstro_rand]
@@ -29,7 +31,7 @@ class Monstro < Personagem
 	end	
 
 	def to_s
-		"#{nome_monstro} - Ataque: #{self.ataque} / Energia: #{self.energia} / #{self.status}\n"
+		"#{self.nome} - Ataque: #{self.ataque} / Energia: #{self.energia} / #{self.status}\n"
 	end
 
 	def true
